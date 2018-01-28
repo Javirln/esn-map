@@ -1,0 +1,23 @@
+.container {
+    margin-top: 25px;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 25px;
+}
+
+input {
+    background-color: #fafafa;
+    border: 0;
+    width: 300px;
+    padding: 2px;
+    -webkit-transition: all .3s ease;
+}
+
+input:focus {
+    outline-width: 0;
+    background-color: white;
+}
